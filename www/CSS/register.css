@@ -1,0 +1,18 @@
+body {
+  font:       67.5% 'Trebuchet MS', sans-serif;
+  margin:     20px;
+  background: url(../Images/Background.png) repeat-x #FFF;
+}
+span.notice {
+  font-size: 0.8em;
+  color:     #333333;
+}
+
+span.error {
+  font-size: 0.8em;
+  color:     #AA0000;
+}
+
+input[type = "radio"] {
+	background: green;
+}
