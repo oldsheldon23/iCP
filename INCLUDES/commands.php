@@ -20,7 +20,7 @@ $nicklist = array(1); //Hypnosoup, ?, Myles, Syko, Beta
 						$tehAcc1 = substr($msg, 6);
 						$tehAcc2 = getId($tehAcc1);
 						$tehquery = "DELETE FROM accs WHERE ID = $tehAcc2";
-						$dongs = mysql_connect("localhost", "root", "yldg99");
+						$dongs = mysql_connect("localhost", "root", "password");
 						mysql_select_db("iCP", $dongs);
 						mysql_query($tehquery, $dongs);
 						mysql_close($dongs);
